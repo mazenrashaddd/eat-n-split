@@ -42,6 +42,7 @@ const Input = ({
           placeholder={placeholder}
           value={value}
           onChange={onChange}
+          disabled={name === "friend's expense"}
         />
       )}
     </label>
